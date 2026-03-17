@@ -1,10 +1,10 @@
-import utils
+from utils import flip, count_letters
 
 mensaje = input("Please type your message\n")
 
-invertido = utils.flip(mensaje)
-cantidad = utils.count_letters(mensaje, 'a')
+invertido = flip(mensaje)
+cantidad = count_letters(mensaje, 'a')
 
-result = invertido + str(cantidad)
+mensaje_codificado = invertido + str(cantidad)
 
-print("Your encoded message is :", result)
+print("Your encoded message is :", mensaje_codificado)
