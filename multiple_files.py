@@ -1,4 +1,4 @@
-from utils import flip, count_letters
+from utils import *
 
 mensaje = input("Please type your message\n")
 
