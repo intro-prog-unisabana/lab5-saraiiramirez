@@ -1,0 +1,1 @@
+from secret_number import seed_secret_numbers , generate_secret_number
